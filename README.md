@@ -11,6 +11,8 @@ Un proyecto para *__INS7501__*
 [Camilo Montupil](https://github.com/camiloJTG)
 <br/>
 [Bryan Ortiz](https://github.com/RoyalSylphID)
+<br/>
+[Sergio Vidal](https://github.com/ZergoX)
 
 ## Recursos
 
