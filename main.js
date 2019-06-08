@@ -7,7 +7,7 @@ function createWindow(){
     win = new BrowserWindow({width: 800, height: 600});
 
     // Specify entry point
-    win.loadURL('https://teateamsoft.github.io/pyky-landing/');
+    win.loadURL('https://teateamsoft.github.io/app-vfc/');
 
     // Show dev tools
     // Remove this line before distributing
