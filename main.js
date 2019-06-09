@@ -1,36 +1,30 @@
-import {app,BrowserWindow} from 'electron'
+const {app, BrowserWindow} = require('electron')
 
-let win = null
+let mainWindow
 
 function createWindow(){
-    // Initialize the window to our specified dimensions
-    win = new BrowserWindow({width: 800, height: 600});
-
-    // Specify entry point
-    win.loadURL('https://teateamsoft.github.io/app-vfc/');
-
-    // Show dev tools
-    // Remove this line before distributing
-    win.webContents.openDevTools()
-
-    // Remove window once app is closed
-    win.on('closed', function () {
-        win = null;
-    });
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    resizable: false,
+    icon: 'resources/images/app.png',
+    webPreferences: {
+      nodeIntegration: true
+    }
+  })
+  mainWindow.loadFile('index.html')
+  mainWindow.on('closed', function (){
+    mainWindow = null
+  })
 }
-
-app.on('ready', function () {
+app.on('ready', createWindow)
+app.on('window-all-closed', function (){
+  if (process.platform !== 'darwin'){
+    app.quit()
+  }
+})
+app.on('activate', function (){
+  if (mainWindow === null){
     createWindow()
-})
-
-app.on('activate', () => {
-    if (win === null) {
-        createWindow()
-    }
-})
-
-app.on('window-all-closed', function () {
-    if (process.platform != 'darwin') {
-        app.quit()
-    }
+  }
 })
