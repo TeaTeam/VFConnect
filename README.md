@@ -1,4 +1,4 @@
-# VFConnect Javascript Application
+# VFConnect - An Electron based app
 
 Un proyecto para *__INS7501__*
 
@@ -16,9 +16,11 @@ Un proyecto para *__INS7501__*
 
 ## Recursos
 
-[NPM](https://www.npmjs.com/)
+[NPM package manager](https://www.npmjs.com/)
 <br/>
-[ElectronJS](https://github.com/electron/electron)
+[Electron](https://github.com/electron/electron)
+<br/>
+[Bootstrap](https://github.com/twbs/bootstrap)
 
 ## Instrucciones y advertencias
 
@@ -53,6 +55,10 @@ Un proyecto para *__INS7501__*
 *Global*
 
 <code>$ npm install -g electron@5.0.2</code>
+
+**Instalar dependencias de Bootstrap**
+
+<code>$ npm install bootstrap</code>
 
 **Iniciar aplicación**
 

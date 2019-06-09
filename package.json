@@ -15,6 +15,7 @@
   "license": "UNLICENSED",
   "devDependencies": {},
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "electron": "^5.0.2"
   }
 }
