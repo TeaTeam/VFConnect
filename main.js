@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 
@@ -6,25 +5,13 @@ const {app, BrowserWindow} = require('electron')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
-function createWindow () {
+function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-=======
-import { app, BrowserWindow } from 'electron'
-
-let win
-
-function createWindow () {
-  // Create the browser window.
-  win = new BrowserWindow({
->>>>>>> eedd37fbab8082d88da2fa72180ad74da1098cf5
     width: 800,
     height: 600,
-    webPreferences: {
-      nodeIntegration: true
-    }
+    webPreferences: {nodeIntegration: true}
   })
-<<<<<<< HEAD
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
@@ -65,11 +52,3 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
-=======
-
-  // and load the index.html of the app.
-  win.loadFile('index.html')
-}
-
-app.on('ready', createWindow)
->>>>>>> eedd37fbab8082d88da2fa72180ad74da1098cf5
