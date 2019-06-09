@@ -32,7 +32,16 @@ Un proyecto para *__INS7501__*
 
 **Clonación de repositorio (Git version >=1.7.10)**
 
-<code>$ git clone -b branch --single-branch 'https://github.com/TeaTeamSoft/VFConnect.git'</code><br>
+*Desde branch desktop*
+
+<code>$ git clone -b desktop --single-branch 'https://github.com/TeaTeamSoft/VFConnect.git'</code><br>
+
+*Desde branch master*
+
+<code>git clone 'https://github.com/TeaTeamSoft/VFConnect.git'</code>
+
+*Ingresar a la carpeta*
+
 <code>$ cd VFConnect</code>
 
 **Instalar dependencias de ElectronJS**
