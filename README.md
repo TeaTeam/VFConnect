@@ -56,7 +56,7 @@ Un proyecto para *__INS7501__*
 
 **Iniciar aplicación**
 
-*Con Electron instalado de forma local y global*
+*Con Electron instalado de forma local o global*
 
 <code>$ npm start</code>
 
