@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/TeaTeamSoft/app-vfc.git",
+  "repository": "https://github.com/TeaTeamSoft/VFConnect.git",
   "keywords": [
     "VFConnect",
     "Electron"
