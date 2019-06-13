@@ -62,13 +62,6 @@
             "temp_unit" : "C",
             "humidity" : "",
             "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "9",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
         }
     ]
 }

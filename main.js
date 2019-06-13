@@ -7,12 +7,13 @@ function createWindow(){
     width: 800,
     height: 600,
     resizable: false,
+    title: 'VFConnect',
     icon: 'resources/images/app.png',
     webPreferences: {
       nodeIntegration: true
     }
   })
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('main.html')
   mainWindow.on('closed', function (){
     mainWindow = null
   })

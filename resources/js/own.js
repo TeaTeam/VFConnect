@@ -1,19 +1,35 @@
-let jsonUrl = "../JSON/sensor_data.json"
+var users = [
+    {
+        "name" : "admin",
+        "pass" : "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
+    },
+    {
+        "name" : "guest",
+        "pass" : "84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec"
+    },
+    {
+        "name" : "anon",
+        "pass" : "5430eeed859cad61d925097ec4f532461ccf1ab6b9802b09a313be1478a4d614"
+    }
+]
 
-function loadJson(file){
-    $.ajaxSetup({beforeSend: function(xhr){
-        if (xhr.overrideMimeType)
-        {
-          xhr.overrideMimeType("application/json");
-        }
-      }
-      })
-    $.getJSON(file, function(json){
-        //var toPrintJson = JSON.stringify(json);
-        //$('body').html(toPrintJson);
-    })
-    //PENDING: Add business logic to manage JSON data
+const shajs = require('sha.js')
+
+function validate(form){
+    try{
+        var exists = false
+        var result = shajs('sha256').update(form.pwd.value).digest('hex')
+        users.forEach((e)=>{
+            if(form.usr.value==e.name&&result==e.pass) 
+                exists = true, console.log('\x1b[42m\x1b[30m%s\x1b[0m','HASH is [OK]\n')
+            else 
+                console.log('\x1b[41m%s\x1b[0m','HASH is [WRONG]\n')
+        })
+        if(exists==true)
+            alert('Correct credentials')
+        else
+            alert('Wrong credentials')
+    }catch(error){
+        alert(error)
+    }
 }
-document.addEventListener("DOMContentLoaded",function(event){
-    //loadJson(jsonUrl)
-})

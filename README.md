@@ -1,4 +1,4 @@
-# VFConnect - An Electron based app
+# VFConnect
 
 Un proyecto para *__INS7501__*
 
@@ -21,20 +21,21 @@ Un proyecto para *__INS7501__*
 [Electron](https://github.com/electron/electron)
 <br/>
 [Bootstrap](https://github.com/twbs/bootstrap)
+<br/>
+[Sha.js](https://libraries.io/npm/sha.js/2.3.0)
 
 ## Instrucciones y advertencias
 
 ### Consideraciones
 
-1. node_modules no incluido.
-2. Sólo se incluyen los archivos de base.
-3. Las dependencias de <code>electron@5.0.2</code> deben ser instaladas de manera local.
+1. node_modules incluidos parcialmente.
+2. Las dependencias de <code>electron@5.0.3</code> deben ser instaladas de manera local.
 
 ### Instrucciones de instalación y ejecución
 
 **Clonación de repositorio (Git version >=1.7.10)**
 
-*Desde branch desktop*
+*Desde branch desktop* **[DESCONTINUADO]**
 
 <code>$ git clone -b desktop --single-branch 'https://github.com/TeaTeamSoft/VFConnect.git'</code><br>
 
@@ -50,15 +51,12 @@ Un proyecto para *__INS7501__*
 
 *Local*
 
-<code>$ npm install electron@5.0.2</code>
+<code>$ npm install electron@5.0.3</code><br>o<br><code>$ npm install --save electron</code>
 
 *Global*
 
-<code>$ npm install -g electron@5.0.2</code>
-
-**Instalar dependencias de Bootstrap**
-
-<code>$ npm install bootstrap</code>
+<code>$ npm install -g electron@5.0.3</code><br>
+<code>$ npm link electron</code>
 
 **Iniciar aplicación**
 
