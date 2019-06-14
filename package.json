@@ -1,7 +1,7 @@
 {
   "name": "vfconnect",
-  "version": "0.1.0",
-  "description": "Electron desktop app for ",
+  "version": "0.1.1",
+  "description": "Electron desktop app for INS7501 ET",
   "main": "main.js",
   "scripts": {
     "start": "electron ."

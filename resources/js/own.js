@@ -20,14 +20,12 @@ function validate(form){
         var exists = false
         var result = shajs('sha256').update(form.pwd.value).digest('hex')
         users.forEach((e)=>{
-            if(form.usr.value==e.name&&result==e.pass) 
-                exists = true, console.log('\x1b[42m\x1b[30m%s\x1b[0m','HASH is [OK]\n')
-            else 
-                console.log('\x1b[41m%s\x1b[0m','HASH is [WRONG]\n')
+            if(form.usr.value==e.name&&result==e.pass){
+                exists = true
+                return alert('Correct credentials')
+            }
         })
-        if(exists==true)
-            alert('Correct credentials')
-        else
+        if(!exists)
             alert('Wrong credentials')
     }catch(error){
         alert(error)
