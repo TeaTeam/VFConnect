@@ -16,6 +16,8 @@ Un proyecto para *__INS7501__*
 
 ## Recursos
 
+[Git](https://git-scm.org/)
+<br>
 [NodeJS Environment](https://nodejs.org/)
 <br>
 [NPM package manager](https://www.npmjs.com/)
@@ -36,33 +38,54 @@ Un proyecto para *__INS7501__*
 
 ### Instrucciones de instalación y ejecución
 
-**Clonación de repositorio (Git version >=1.7.10)**
+**Importar repositorio**
 
 *Desde branch master*
 
-<code>$ git clone 'https://github.com/TeaTeamSoft/VFConnect.git'</code>
+```shell
+$ git clone 'https://github.com/TeaTeamSoft/VFConnect.git'
+```
 
 *Ingresar a la carpeta*
 
-<code>$ cd VFConnect</code>
+```shell
+$ cd VFConnect
+```
 
 **Instalar dependencias de ElectronJS**
 
-*Local*
+*Local para versión específica*
 
-<code>$ npm install electron@5.0.3</code><br>o<br><code>$ npm install --save electron</code>
+```shell
+$ npm install electron@5.0.3
+```
+*Local para última versión publicada*
+```shell
+$ npm install --save electron
+```
+*Global para versión específica*
 
-*Global*
+```shell
+$ npm install -g electron@5.0.3
+```
+*Global para última versión publicada*
+```shell
+$ npm install -g electron
+```
 
-<code>$ npm install -g electron@5.0.3</code><br>
-<code>$ npm link electron</code>
+*Referenciar módulo de electron* <code>global</code> *a repositorio local*
+```shell
+$ npm link electron
+```
 
 **Iniciar aplicación**
 
 *Con Electron instalado de forma local o global*
-
-<code>$ npm start</code>
+```shell
+$ npm start
+```
 
 *Exclusivo para instalación global*
-
-<code>$ electron .</code>
+```shell
+$ electron .
+```
