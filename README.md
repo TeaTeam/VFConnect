@@ -43,7 +43,7 @@ Un proyecto para *__INS7501__*
 *Desde branch master*
 
 ```shell
-$ git clone 'https://github.com/TeaTeamSoft/VFConnect.git'
+$ git clone 'https://github.com/TeaTeam/VFConnect.git'
 ```
 
 *Ingresar a la carpeta*
