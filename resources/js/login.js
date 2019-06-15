@@ -1,15 +1,15 @@
 var users = [
     {
-        "name" : "admin",
-        "pass" : "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
+        name : "admin",
+        pass : "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"
     },
     {
-        "name" : "guest",
-        "pass" : "84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec"
+        name : "guest",
+        pass : "84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec"
     },
     {
-        "name" : "anon",
-        "pass" : "5430eeed859cad61d925097ec4f532461ccf1ab6b9802b09a313be1478a4d614"
+        name : "anon",
+        pass : "5430eeed859cad61d925097ec4f532461ccf1ab6b9802b09a313be1478a4d614"
     }
 ]
 
