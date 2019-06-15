@@ -7,22 +7,24 @@ Un proyecto para *__INS7501__*
 ## Equipo
 
 [Benjamín Calisto](https://github.com/KBeDeveloper)
-<br/>
+<br>
 [Camilo Montupil](https://github.com/camiloJTG)
-<br/>
+<br>
 [Bryan Ortiz](https://github.com/RoyalSylphID)
-<br/>
+<br>
 [Sergio Vidal](https://github.com/ZergoX)
 
 ## Recursos
 
+[NodeJS Environment](https://nodejs.org/)
+<br>
 [NPM package manager](https://www.npmjs.com/)
-<br/>
-[Electron](https://github.com/electron/electron)
-<br/>
-[Bootstrap](https://github.com/twbs/bootstrap)
-<br/>
-[Sha.js](https://libraries.io/npm/sha.js/2.3.0)
+<br>
+[Electron JS Framework](https://github.com/electron/electron)
+<br>
+[Bootstrap CSS Framework](https://github.com/twbs/bootstrap)
+<br>
+[Sha.js libraries](https://libraries.io/npm/sha.js/2.3.0)
 
 ## Instrucciones y advertencias
 
@@ -30,18 +32,15 @@ Un proyecto para *__INS7501__*
 
 1. node_modules incluidos parcialmente.
 2. Las dependencias de <code>electron@5.0.3</code> deben ser instaladas de manera local.
+3. Para detalles precisos, revisar dependencias en [package.json](./package.json) en el repositorio actual.
 
 ### Instrucciones de instalación y ejecución
 
 **Clonación de repositorio (Git version >=1.7.10)**
 
-*Desde branch desktop* **[DESCONTINUADO]**
-
-<code>$ git clone -b desktop --single-branch 'https://github.com/TeaTeamSoft/VFConnect.git'</code><br>
-
 *Desde branch master*
 
-<code>git clone 'https://github.com/TeaTeamSoft/VFConnect.git'</code>
+<code>$ git clone 'https://github.com/TeaTeamSoft/VFConnect.git'</code>
 
 *Ingresar a la carpeta*
 
