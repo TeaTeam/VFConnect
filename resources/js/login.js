@@ -1,3 +1,4 @@
+const shajs = require('sha.js')
 var users = [
     {
         name : "admin",
@@ -13,21 +14,18 @@ var users = [
     }
 ]
 
-const shajs = require('sha.js')
-
 function validate(form){
     try{
         var exists = false
         var result = shajs('sha256').update(form.pwd.value).digest('hex')
         users.forEach((e)=>{
-            if(form.usr.value==e.name&&result==e.pass){
-                exists = true
-                return alert('Correct credentials')
-            }
+            if(form.usr.value==e.name&&result==e.pass)
+                return exists=true, alert('This should redirect to another HTML')
         })
         if(!exists)
             alert('Wrong credentials')
     }catch(error){
         alert(error)
+        console.error(error)
     }
 }

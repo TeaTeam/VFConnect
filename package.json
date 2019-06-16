@@ -19,9 +19,14 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "electron": "^5.0.3",
+    "electron-packager": "^13.1.1",
+    "http": "0.0.0",
     "jquery": "^3.4.1",
     "jsdom": "^15.1.1",
     "popper.js": "^1.15.0",
-    "sha.js": "^2.4.11"
+    "querystring": "^0.2.0",
+    "sha.js": "^2.4.11",
+    "url": "^0.11.0",
+    "util": "^0.12.0"
   }
 }
