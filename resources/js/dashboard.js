@@ -5,7 +5,7 @@ const { document } = (new JSDOM('')).window
 global.document = document
 var $ = jQuery = require('jquery')(window)
 const util = require('util')
-var url = 'https://raw.githubusercontent.com/TeaTeam/VFConnect/master/resources/json/sensor_data.json';
+var url = 'https://raw.githubusercontent.com/TeaTeam/VFConnect/master/resources/json/sensor_data.json'
 
 function loadJson(){
     $.ajaxSetup({beforeSend: function(xhr){
@@ -17,7 +17,10 @@ function loadJson(){
     $.getJSON(url, function(json){
         var toPrintJson = JSON.stringify(json)
         $('#rjson').html(toPrintJson)
-        console.log(util.inspect(JSON.parse(toPrintJson.toString()), { colors: true }))
+        $.each(JSON.parse(toPrintJson), function(i, item){
+            console.log(item)
+        })
+        //console.log(util.inspect(JSON.parse(toPrintJson.toString()), { colors: true }))
     })
 }
 loadJson()
