@@ -13,7 +13,7 @@ function createWindow(){
       nodeIntegration: true
     }
   })
-  mainWindow.loadFile('main.html')
+  mainWindow.loadFile('views/dashboard.html')
   mainWindow.on('closed', function (){
     mainWindow = null
   })
