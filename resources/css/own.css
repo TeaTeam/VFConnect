@@ -6,3 +6,31 @@ body{
 #login{
     padding-top: 200px;
 }
+
+#banner{
+    padding-top: 15%;
+}
+
+.col-lg-4 #banner-header i{
+    display:block;
+    text-align:center;
+}
+
+#banner-footer{
+    margin-top: 50px;
+}
+
+#icon{
+    font-size: 8em;
+}
+
+.gray-icon{
+    color: gray;
+    font-size:22px;
+    margin: 2px;
+}
+
+.gray-icon:hover{
+    color: #fff;
+    transition: .2s ease-in-out;       
+}
