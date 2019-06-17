@@ -1,67 +1,65 @@
-{
-    "sensors" : [
-        {
-            "sensor_code" : "0",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "1",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "2",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "3",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "4",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "5",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "6",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "7",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        },
-        {
-            "sensor_code" : "8",
-            "temperature" : "",
-            "temp_unit" : "C",
-            "humidity" : "",
-            "hum_unit" : "%"
-        }
-    ]
-}
+[
+    {
+        "sensor_code" : "0",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "1",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "2",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "3",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "4",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "5",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "6",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "7",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    },
+    {
+        "sensor_code" : "8",
+        "temperature" : "",
+        "temp_unit" : "C",
+        "humidity" : "",
+        "hum_unit" : "%"
+    }
+]
