@@ -1,65 +1,74 @@
 [
     {
         "sensor_code" : "0",
-        "temperature" : "",
+        "temperature" : "18",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "64",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "1",
-        "temperature" : "",
+        "temperature" : "22",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "81",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "2",
-        "temperature" : "",
+        "temperature" : "12",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "72",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "3",
-        "temperature" : "",
+        "temperature" : "14",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "64",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "4",
-        "temperature" : "",
+        "temperature" : "26",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "59",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "5",
-        "temperature" : "",
+        "temperature" : "20",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "38",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "6",
-        "temperature" : "",
+        "temperature" : "19",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "36",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "7",
-        "temperature" : "",
+        "temperature" : "18",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "25",
+        "hum_unit" : "%",
+        "location" : ""
     },
     {
         "sensor_code" : "8",
-        "temperature" : "",
+        "temperature" : "23",
         "temp_unit" : "C",
-        "humidity" : "",
-        "hum_unit" : "%"
+        "humidity" : "80",
+        "hum_unit" : "%",
+        "location" : ""
     }
 ]

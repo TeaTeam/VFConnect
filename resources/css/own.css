@@ -31,6 +31,15 @@ body{
 }
 
 .gray-icon:hover{
-    color: #fff;
-    transition: .2s ease-in-out;       
+    color: white;
+    transition: .2s ease-in-out;     
+}
+
+.author{
+    color: gray;
+}
+
+.author:hover{
+    color: white;
+    transition: .2s ease-in-out;
 }

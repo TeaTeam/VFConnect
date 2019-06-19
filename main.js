@@ -1,7 +1,5 @@
 const {app, BrowserWindow} = require('electron')
-
 let mainWindow
-
 function createWindow(){
   mainWindow = new BrowserWindow({
     width: 800,
@@ -13,7 +11,7 @@ function createWindow(){
       nodeIntegration: true
     }
   })
-  mainWindow.loadFile('views/dashboard.html')
+  mainWindow.loadFile('main.html')
   mainWindow.on('closed', function (){
     mainWindow = null
   })
