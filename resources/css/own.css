@@ -42,4 +42,5 @@ body{
 .author:hover{
     color: white;
     transition: .2s ease-in-out;
+    text-decoration: none;
 }
