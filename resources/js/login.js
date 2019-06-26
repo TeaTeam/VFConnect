@@ -1,3 +1,4 @@
+const { remote } = require('electron')
 const shajs = require('sha.js')
 var users = [
     {
@@ -24,7 +25,7 @@ function validate(form){
         var result = shajs('sha256').update(form.pwd.value).digest('hex')
         users.forEach((e)=>{
             if(form.usr.value==e.name&&result==e.pass)
-                return exists=true, alert('This should redirect to another HTML')
+                remote.getCurrentWindow().loadFile('views/dashboard.html'), alert('This should redirect to another view.'); return exists=true
         })
         if(!exists)
             alert('Wrong credentials')

@@ -17,7 +17,7 @@ function loadJson(){
     var toPrintJson = JSON.stringify(json)
     //console.log(util.inspect(JSON.parse(toPrintJson.toString()), { colors: true }))
     $.each(JSON.parse(toPrintJson.toString()), function(i, item){
-      //console.log(item)
+      console.log(item)
       
     })
   })
