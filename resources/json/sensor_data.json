@@ -5,7 +5,7 @@
         "temp_unit" : "C",
         "humidity" : "64",
         "hum_unit" : "%",
-        "location" : "C5"
+        "location" : "Av Presidente Kennedy"
     },
     {
         "sensor_code" : "1",
@@ -13,7 +13,7 @@
         "temp_unit" : "C",
         "humidity" : "81",
         "hum_unit" : "%",
-        "location" : "C54"
+        "location" : "Prof. Zañartu 951"
     },
     {
         "sensor_code" : "2",
@@ -21,7 +21,7 @@
         "temp_unit" : "C",
         "humidity" : "72",
         "hum_unit" : "%",
-        "location" : "C23"
+        "location" : "Av. Américo Vespucio 1737"
     },
     {
         "sensor_code" : "3",
@@ -29,7 +29,7 @@
         "temp_unit" : "C",
         "humidity" : "64",
         "hum_unit" : "%",
-        "location" : "C43"
+        "location" : "Avenida Andrés Bello 2425"
     },
     {
         "sensor_code" : "4",
@@ -37,7 +37,7 @@
         "temp_unit" : "C",
         "humidity" : "59",
         "hum_unit" : "%",
-        "location" : "C65"
+        "location" : "Moneda 970"
     },
     {
         "sensor_code" : "5",
@@ -45,7 +45,7 @@
         "temp_unit" : "C",
         "humidity" : "38",
         "hum_unit" : "%",
-        "location" : "C21"
+        "location" : "Av. Américo Vespucio 1501"
     },
     {
         "sensor_code" : "6",
@@ -53,7 +53,7 @@
         "temp_unit" : "C",
         "humidity" : "36",
         "hum_unit" : "%",
-        "location" : "C4"
+        "location" : "Pdte Jorge Alessandri Rodríguez 20040"
     },
     {
         "sensor_code" : "7",
@@ -61,7 +61,7 @@
         "temp_unit" : "C",
         "humidity" : "25",
         "hum_unit" : "%",
-        "location" : "C67"
+        "location" : "Pedro de Valdivia Nte"
     },
     {
         "sensor_code" : "8",
@@ -69,6 +69,6 @@
         "temp_unit" : "C",
         "humidity" : "80",
         "hum_unit" : "%",
-        "location" : "Las Condes"
+        "location" : "Ruta 5"
     }
 ]
